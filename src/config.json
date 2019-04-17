@@ -1,0 +1,23 @@
+{
+    "article": {
+        "required_fields": ["ID", "author", "title", "journal", "volume", "number", 
+                          "pages", "year"],
+        "author_limit": 6,
+        "title": "Headcap",
+        "journal": "CaseCap",
+        "exception": "arXiv"
+    },
+    "inproceedings": {
+        "required_fields": ["ID", "author", "booktitle", "year"],
+        "author_limit": 6,
+        "title": "Headcap",
+        "booktitle": "CaseCap"
+    },
+    "book": {
+        "required_fields": ["ID", "author", "title", "publisher", "year"],
+        "author_limit": 6,
+        "title": "Headcap"
+    }
+
+
+}
